@@ -92,7 +92,7 @@ def test_password(pwd):
         return None
 
 if __name__ == "__main__":
-    pwd = "123"
+    pwd = "1231111111111111111"
     expected_status = False
     status = test_password(pwd)
     if status != None:
