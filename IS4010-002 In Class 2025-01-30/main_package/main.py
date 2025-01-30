@@ -94,9 +94,9 @@ def test_password(pwd):
 if __name__ == "__main__":
     pwd = "123"
     expected_status = False
-    status = test_password("123")
+    status = test_password(pwd)
     if status != None:
-        if (test_password("123") == expected_status):
+        if (status == expected_status):
             print(pwd, "Passed")
         else:
             print(pwd, "FAILED")

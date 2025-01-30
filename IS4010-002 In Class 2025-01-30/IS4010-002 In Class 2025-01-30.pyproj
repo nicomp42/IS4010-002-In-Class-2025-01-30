@@ -25,6 +25,9 @@
     <Compile Include="main_package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="validationPackage\config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="validationPackage\egalitarian_eagle.py">
       <SubType>Code</SubType>
     </Compile>

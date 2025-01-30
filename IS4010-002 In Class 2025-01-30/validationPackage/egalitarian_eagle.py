@@ -1,4 +1,3 @@
+# egalitarian_eagle.py
 
-
-def validate_password(pwd):
-    return True
+# Enforce Minimum Length Requirement
