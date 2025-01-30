@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7fddf7b7-7488-468a-a0c4-fb57decda212</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main_package\main.py</StartupFile>
+    <StartupFile>validationPackage\pleasant_partridge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
