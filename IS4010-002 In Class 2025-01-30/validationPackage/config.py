@@ -7,5 +7,6 @@
 max_length = 10
 min_length = 5
 special_characters = "!@#$%^&*"
+version_number = "0.1.1"
 
 
