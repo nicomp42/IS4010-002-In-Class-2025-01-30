@@ -1,0 +1,75 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7fddf7b7-7488-468a-a0c4-fb57decda212</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main_package\main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>IS4010-002 In Class 2025-01-30</Name>
+    <RootNamespace>IS4010-002 In Class 2025-01-30</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main_package\main.py" />
+    <Compile Include="main_package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\egalitarian_eagle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\excited_emu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\flighty_falcon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\happy_egret.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\pleasant_partridge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\reasonable_robin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\severe_starling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\sprightly_sparrow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\terrific_tern.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\zesty_xenops.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validationPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="main_package\" />
+    <Folder Include="validationPackage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
