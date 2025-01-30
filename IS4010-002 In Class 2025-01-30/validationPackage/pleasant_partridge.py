@@ -18,5 +18,5 @@ def validate_password(pwd):
 
 
 if __name__ == "__main__":
-    pwd = "falcon47$^%*"
+    pwd = "falCon45"
     validate_password(pwd)
